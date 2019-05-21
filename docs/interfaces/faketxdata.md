@@ -40,7 +40,7 @@ _Inherited from [TxData](txdata.md).[chainId](txdata.md#chainid)_
 
 _Defined in [types.ts:28](https://github.com/alcuadrado/ethereumjs-tx/blob/84f5b82/src/types.ts#L28)_
 
-EIP 155 chainId - mainnet: 1, ropsten: 3
+chainId - mainnet: 420, 
 
 ---
 

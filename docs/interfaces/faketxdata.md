@@ -1,4 +1,4 @@
-[ethereumjs-tx](../README.md) > [FakeTxData](../interfaces/faketxdata.md)
+[puffscoinjs-tx](../README.md) > [FakeTxData](../interfaces/faketxdata.md)
 
 # Interface: FakeTxData
 

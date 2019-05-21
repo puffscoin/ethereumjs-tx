@@ -341,7 +341,7 @@ export default class Transaction {
 
   /**
    * Returns the transaction in JSON format
-   * @see {@link https://github.com/puffscoin/puffscoinjs-util/blob/master/docs/index.md#defineproperties|ethereumjs-util}
+   * @see {@link https://github.com/puffscoin/puffscoinjs-util/blob/master/docs/index.md#defineproperties|puffscoinjs-util}
    */
   toJSON(labels: boolean = false): { [key: string]: string } | string[] {
     // Note: This never gets executed, defineProperties overwrites it.

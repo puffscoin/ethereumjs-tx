@@ -9,8 +9,8 @@ import {
   toBuffer,
   rlp,
   stripZeros,
-} from 'ethereumjs-util'
-import Common from 'ethereumjs-common'
+} from 'puffscoinjs-util'
+import Common from 'puffscoinjs-common'
 import { Buffer } from 'buffer'
 import { BufferLike, PrefixedHexString, TxData, TransactionOptions } from './types'
 
@@ -18,7 +18,7 @@ import { BufferLike, PrefixedHexString, TxData, TransactionOptions } from './typ
 const N_DIV_2 = new BN('7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0', 16)
 
 /**
- * An Ethereum transaction.
+ * A PUFFScoin transaction.
  */
 export default class Transaction {
   public raw!: Buffer[]

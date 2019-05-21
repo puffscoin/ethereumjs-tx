@@ -1,4 +1,4 @@
-[ethereumjs-tx](../README.md) > [TransformableToBuffer](../interfaces/transformabletobuffer.md)
+[puffscoinjs-tx](../README.md) > [TransformableToBuffer](../interfaces/transformabletobuffer.md)
 
 # Interface: TransformableToBuffer
 

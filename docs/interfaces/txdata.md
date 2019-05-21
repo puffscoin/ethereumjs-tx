@@ -1,4 +1,4 @@
-[ethereumjs-tx](../README.md) > [TxData](../interfaces/txdata.md)
+[puffscoinjs-tx](../README.md) > [TxData](../interfaces/txdata.md)
 
 # Interface: TxData
 

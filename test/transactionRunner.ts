@@ -1,11 +1,11 @@
 import Tx from '../src/transaction'
 import * as tape from 'tape'
-import { toBuffer } from 'ethereumjs-util'
+import { toBuffer } from 'puffscoinjs-util'
 import * as minimist from 'minimist'
 import { ForkName, ForkNamesMap, OfficialTransactionTestData } from './types'
 
 // We use require here because this module doesn't have types and this works better with ts-node.
-const testing = require('ethereumjs-testing')
+const testing = require('puffscoinjs-testing')
 
 const argv = minimist(process.argv.slice(2))
 const file: string | undefined = argv.file
@@ -16,7 +16,7 @@ const forkNames: ForkName[] = [
   'EIP150',
   'EIP158',
   'Frontier',
-  'Homestead',
+  'Amsterdam',
 ]
 
 const forkNameMap: ForkNamesMap = {
@@ -25,7 +25,7 @@ const forkNameMap: ForkNamesMap = {
   EIP150: 'tangerineWhistle',
   EIP158: 'spuriousDragon',
   Frontier: 'chainstart',
-  Homestead: 'homestead',
+  Amsterdam: 'amsterdam',
 }
 
 tape('TransactionTests', t => {

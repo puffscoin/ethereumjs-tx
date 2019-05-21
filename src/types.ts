@@ -63,7 +63,7 @@ export interface TxData {
   s?: BufferLike
 
   /**
-   * The amount of Ether sent.
+   * The amount of PUFFScoin sent.
    */
   value?: BufferLike
 }

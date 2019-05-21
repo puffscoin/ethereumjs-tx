@@ -1,4 +1,4 @@
-# ethereumjs-tx
+# puffscoinjs-tx
 
 ## Index
 

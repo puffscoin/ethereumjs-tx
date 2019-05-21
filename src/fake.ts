@@ -1,4 +1,4 @@
-import { toBuffer } from 'ethereumjs-util'
+import { toBuffer } from 'puffscoinjs-util'
 import { Buffer } from 'buffer'
 import { BufferLike, FakeTxData, PrefixedHexString, TransactionOptions } from './types'
 import Transaction from './transaction'

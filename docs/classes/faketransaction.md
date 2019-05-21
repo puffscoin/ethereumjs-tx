@@ -1,4 +1,4 @@
-[ethereumjs-tx](../README.md) > [FakeTransaction](../classes/faketransaction.md)
+[puffscoinjs-tx](../README.md) > [FakeTransaction](../classes/faketransaction.md)
 
 # Class: FakeTransaction
 

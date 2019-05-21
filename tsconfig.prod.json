@@ -1,5 +1,5 @@
 {
-  "extends": "@ethereumjs/config-tsc",
+  "extends": "@puffscoinjs/config-tsc",
   "compilerOptions": {
     "outDir": "./dist"
   },

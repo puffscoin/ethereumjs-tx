@@ -1,7 +1,7 @@
 import * as tape from 'tape'
 import { Buffer } from 'buffer'
-import { bufferToHex } from 'ethereumjs-util'
-import Common from 'ethereumjs-common'
+import { bufferToHex } from 'puffscoinjs-util'
+import Common from 'puffscoinjs-common'
 import FakeTransaction from '../src/fake'
 import { FakeTxData } from './types'
 

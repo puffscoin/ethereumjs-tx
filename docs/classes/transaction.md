@@ -1,8 +1,8 @@
-[ethereumjs-tx](../README.md) > [Transaction](../classes/transaction.md)
+[puffscoinjs-tx](../README.md) > [Transaction](../classes/transaction.md)
 
 # Class: Transaction
 
-An Ethereum transaction.
+A PUFFScoin transaction.
 
 ## Hierarchy
 

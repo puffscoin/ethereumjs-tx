@@ -1,10 +1,10 @@
 import * as tape from 'tape'
 import { Buffer } from 'buffer'
-import { rlp, zeros, privateToPublic, toBuffer } from 'ethereumjs-util'
+import { rlp, zeros, privateToPublic, toBuffer } from 'puffscoinjs-util'
 
 import Transaction from '../src/transaction'
 import { FakeTxData, TxsJsonEntry, VitaliksTestsDataEntry } from './types'
-import Common from 'ethereumjs-common'
+import Common from 'puffscoinjs-common'
 import { TxData } from '../src'
 
 const txFixtures: TxsJsonEntry[] = require('./txs.json')

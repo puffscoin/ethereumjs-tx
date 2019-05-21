@@ -1,4 +1,4 @@
-[ethereumjs-tx](../README.md) > [TransactionOptions](../interfaces/transactionoptions.md)
+[puffscoinjs-tx](../README.md) > [TransactionOptions](../interfaces/transactionoptions.md)
 
 # Interface: TransactionOptions
 

@@ -1,5 +1,5 @@
 import { Buffer } from 'buffer'
-import Common from 'ethereumjs-common'
+import Common from 'puffscoinjs-common'
 
 /**
  * Any object that can be transformed into a `Buffer`

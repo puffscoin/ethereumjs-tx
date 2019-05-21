@@ -1,7 +1,7 @@
 {
-  "name": "ethereumjs-tx",
+  "name": "puffscoinjs-tx",
   "version": "1.3.7",
-  "description": "An simple module for creating, manipulating and signing ethereum transactions",
+  "description": "An simple module for creating, manipulating and signing PUFFScoin transactions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -13,13 +13,13 @@
     "coverage": "ethereumjs-config-coverage",
     "coveralls": "ethereumjs-config-coveralls",
     "docs:build": "typedoc --out docs --mode file --readme none --theme markdown --mdEngine github --excludeNotExported src",
-    "format": "ethereumjs-config-format",
-    "format:fix": "ethereumjs-config-format-fix",
-    "tslint": "ethereumjs-config-tslint",
-    "tslint:fix": "ethereumjs-config-tslint-fix",
-    "tsc": "ethereumjs-config-tsc",
-    "lint": "ethereumjs-config-lint",
-    "lint:fix": "ethereumjs-config-lint-fix",
+    "format": "puffscoinjs-config-format",
+    "format:fix": "puffscoinjs-config-format-fix",
+    "tslint": "puffscoinjs-config-tslint",
+    "tslint:fix": "puffscoinjs-config-tslint-fix",
+    "tsc": "puffscoinjs-config-tsc",
+    "lint": "puffscoinjs-config-lint",
+    "lint:fix": "puffscoinjs-config-lint-fix",
     "test": "npm run test:node",
     "test:node": "ts-node node_modules/tape/bin/tape ./test/index.ts",
     "test:browser:build": "tsc && cp ./test/*.json test-build/test/",
@@ -37,14 +37,14 @@
   "author": "mjbecze <mb@ethdev.com>",
   "license": "MPL-2.0",
   "dependencies": {
-    "ethereumjs-common": "^1.0.0",
-    "ethereumjs-util": "^6.0.0"
+    "puffscoinjs-common": "^1.0.0",
+    "puffscoinjs-util": "^6.0.0"
   },
   "devDependencies": {
-    "@ethereumjs/config-nyc": "^1.1.1",
-    "@ethereumjs/config-prettier": "^1.1.1",
-    "@ethereumjs/config-tsc": "^1.1.1",
-    "@ethereumjs/config-tslint": "^1.1.1",
+    "@puffscoinjs/config-nyc": "^1.1.1",
+    "@puffscoinjs/config-prettier": "^1.1.1",
+    "@puffscoinjs/config-tsc": "^1.1.1",
+    "@puffscoinjs/config-tslint": "^1.1.1",
     "@types/bn.js": "^4.11.5",
     "@types/minimist": "^1.2.0",
     "@types/node": "^11.13.4",
@@ -52,7 +52,7 @@
     "browserify": "^16.2.3",
     "contributor": "^0.1.25",
     "coveralls": "^2.11.4",
-    "ethereumjs-testing": "git+https://github.com/ethereumjs/ethereumjs-testing.git#v1.2.8",
+    "puffscoinjs-testing": "git+https://github.com/ethereumjs/ethereumjs-testing.git#v1.2.8",
     "husky": "^2.1.0",
     "istanbul": "^0.4.1",
     "karma": "^4.1.0",
@@ -73,12 +73,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereumjs/ethereumjs-tx.git"
+    "url": "https://github.com/puffscoin/puffscoinjs-tx.git"
   },
   "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-tx/issues"
+    "url": "https://github.com/puffscoin/puffscoinjs-tx/issues"
   },
-  "homepage": "https://github.com/ethereumjs/ethereumjs-tx",
+  "homepage": "https://github.com/puffscoin/puffscoinjs-tx",
   "contributors": [
     {
       "name": "<-c-g-> ",

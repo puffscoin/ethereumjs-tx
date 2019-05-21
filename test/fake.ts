@@ -105,7 +105,7 @@ tape('[FakeTransaction]: Basic functions', function(t) {
     const tx = new FakeTransaction(txData)
     const txWithChain = new FakeTransaction(txData, { chain: 3 })
     st.plan(2)
-    st.equal(tx.getChainId(), 1, 'should return correct chainId')
+    st.equal(tx.getChainId(), 420, 'should return correct chainId')
     st.equal(txWithChain.getChainId(), 3, 'should return correct chainId')
   })
 
